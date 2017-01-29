@@ -1,0 +1,10 @@
+<div class="gallery">
+  <a class="gallery__item" href="#" *ngFor="let card of cards">
+    <div class="gallery__item-image">
+      <cl-image public-id="{{card.public_id}}" class="img" format="jpg">
+
+      </cl-image>
+    </div>
+    <div class="gallery__item-content">{{card.created_at}} </div>
+  </a>
+</div>
